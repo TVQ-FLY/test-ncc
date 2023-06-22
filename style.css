@@ -90,3 +90,61 @@ h2{
     padding: 20px 0 20px 100px;
 }
 
+
+
+/* Mobile: width <740px */
+@media only screen and (max-width: 46.1875em){    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .center{
+        display: inline;
+        width: 100%;
+    }
+    .center-image img{
+        width: 100px;
+    }
+    .center-left{
+        display: none;
+        padding: 0;
+        width: 0px;
+    }
+    .center-right{
+        width: 100%;
+    }
+    .content-center{
+        width: 100%;
+    }
+    .image img{
+        width: 70px;
+    }
+    
+    .column h3{
+        text-align: center;
+    }
+    .column-content{
+        display: inline;
+        width: 100%;
+    }
+    .column{
+        width: 100%;
+    }
+
+    .column-text{
+        width: 100%;
+    }
+    .content-three-column{
+        display: inline;
+        width: 100%;
+    }
+    .the-end{
+        width: 100%;
+    }
+    .the-end img{
+        width: 100px;
+    }
+}
+
