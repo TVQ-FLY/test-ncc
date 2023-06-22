@@ -156,3 +156,117 @@ h2{
     }
 }
 
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    body{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .center{
+        display: flex;
+        width: 100%;
+    }
+    
+    .center-left{
+        background-color: #191718;
+        color: #EFEFEF;
+        padding: 10px 0 10px 10px;
+        width: 200px;
+        height: 200vh;
+        text-align: left;
+    }
+    
+    
+    h2{
+        font-weight:700;
+        padding-bottom: 15px;
+        font-size: 16px;
+    }
+    .center-right{
+        background-color: #FFFF;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .center-image{
+        width: 300px;
+        margin-left: 150px;
+    }
+
+    
+    .content{
+        display: flex;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    
+    .content-center{
+        background-color: #EFEFEF;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .content-center h4{
+        text-align: center;
+        align-items: center;
+        padding: 20px 0 30px 0;
+        font-weight: 700px;
+    }
+    
+    .content-center p{
+        padding-bottom: 20px;
+        font-weight: 400;
+    }
+    
+    .content-three-column{
+        display: inline;
+        width: 1510px;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20vh;
+    }
+    
+    .column{
+        margin: auto;
+        width: 100%;
+
+    }
+    
+    .column h3{
+        font-size: 24px;
+        margin-bottom: 15px;
+        margin-left: 150px;
+    }
+    .image{
+        display: flex;
+    }
+    .image img{
+        margin: auto;
+    }
+    .column-content{
+        display: inline;
+        width: 100%;
+    }
+    .column-content img{
+        width: 150px;
+    }
+
+
+    .the-end{
+        width: 100%;
+        padding: 0px;
+        display: flex;
+    }
+    .the-end img{
+        padding-top: 50px;
+        width: 70px;
+        margin: auto;
+    }
+}
